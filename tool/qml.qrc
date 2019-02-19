@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/desktop.png</file>
+        <file>CloseButton.qml</file>
+        <file>images/close.png</file>
+        <file>images/complaints.png</file>
+        <file>images/reboot.png</file>
+        <file>images/shutdown.png</file>
+        <file>CommonButton.qml</file>
+        <file>CommonLineEdit.qml</file>
+        <file>CommonLabel.qml</file>
+        <file>images/avatar.png</file>
+        <file>images/activity.png</file>
+        <file>images/attendance.png</file>
+        <file>images/game.png</file>
+        <file>images/order.png</file>
+        <file>images/recharge.png</file>
+        <file>images/tel.png</file>
+        <file>images/wifi.png</file>
+        <file>FuncButton.qml</file>
+        <file>ChatLabel.qml</file>
+    </qresource>
+</RCC>
