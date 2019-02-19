@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/masterCashier">
+        <file>Resources/supermarket.png</file>
+        <file>Resources/search.png</file>
+        <file>Resources/check_common.png</file>
+        <file>Resources/check_select.png</file>
+        <file>Resources/tab_change.png</file>
+        <file>Resources/tab_close.png</file>
+        <file>Resources/tab_max.png</file>
+        <file>Resources/tab_min.png</file>
+        <file>Resources/tab_more.png</file>
+        <file>Resources/tab_set.png</file>
+        <file>Resources/arrow_down.png</file>
+        <file>Resources/arrow_left.png</file>
+        <file>Resources/add_hover.png</file>
+        <file>Resources/add_normal.png</file>
+        <file>Resources/add_pressed.png</file>
+        <file>Resources/delete.png</file>
+        <file>Resources/reduce_hover.png</file>
+        <file>Resources/reduce_normal.png</file>
+        <file>Resources/reduce_pressed.png</file>
+        <file>Resources/login/bg.png</file>
+        <file>Resources/login/close.png</file>
+        <file>Resources/login/login_account.png</file>
+        <file>Resources/login/login_password.png</file>
+        <file>Resources/login/max.png</file>
+        <file>Resources/login/min.png</file>
+        <file>Resources/login/login_account_black.png</file>
+        <file>Resources/login/login_passwd_black.png</file>
+        <file>Resources/login/head.png</file>
+        <file>Resources/payment_failed.png</file>
+        <file>Resources/payment_ing.png</file>
+        <file>Resources/payment_success.png</file>
+        <file>Resources/shifting.png</file>
+        <file>Resources/page_front.png</file>
+        <file>Resources/page_next.png</file>
+        <file>Resources/dialog_close.png</file>
+        <file>Resources/pulldown.png</file>
+        <file>Resources/masterCashier_icon.ico</file>
+        <file>Resources/finish.png</file>
+        <file>Resources/unfinish.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,1213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2e4fb691-99c2-438c-a175-f31b2be66f86}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{50a7121c-d1c4-4bb6-846c-9c09ca3d7abe}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\sale">
+      <UniqueIdentifier>{5429b538-c53c-4781-a972-b7ac43de54a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sale">
+      <UniqueIdentifier>{5fb46712-fd20-4235-84c6-06e47b10ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\sale">
+      <UniqueIdentifier>{953141fc-5ef8-4914-9794-6a5c652d397b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{c0102e02-5a9c-480f-9673-f6cd967d693d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\http">
+      <UniqueIdentifier>{1689dfca-5b94-48ba-8d9e-8115d4556410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\http">
+      <UniqueIdentifier>{bef7b703-125a-4be0-850f-aaa5f2feb59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{96d311e3-ea0c-470d-b907-f17726083b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\websocket">
+      <UniqueIdentifier>{3b57383a-b9a6-4bcc-a286-b636de7055d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\websocket">
+      <UniqueIdentifier>{5708df76-133e-43d3-9144-c1bdfd431ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\shift">
+      <UniqueIdentifier>{e8b97318-d198-44bb-9887-6f68e31b02f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shift">
+      <UniqueIdentifier>{ad9f5b1e-2d60-4220-9021-d80c44c7e7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shift">
+      <UniqueIdentifier>{05e77e47-6542-4fba-a7f3-2999d9f5ca9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\inventoryRemind">
+      <UniqueIdentifier>{81a03c8f-50c1-40f4-a558-60601ecce412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\inventoryRemind">
+      <UniqueIdentifier>{debf4400-c0d3-4928-8269-8f43c6d052ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\inventoryRemind">
+      <UniqueIdentifier>{41c214a9-e6a4-4059-86b6-367517282b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\return">
+      <UniqueIdentifier>{edc69f07-9e29-462a-a3d5-aaffb98bbe22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\return">
+      <UniqueIdentifier>{7ecd7ff0-e86a-4636-a2c3-3a744cbd5987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\return">
+      <UniqueIdentifier>{2a54f4d8-cd3d-427d-8431-f1e87d0d4ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\order">
+      <UniqueIdentifier>{cec0de6b-4ee7-4631-881a-71aed5bdc7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\order">
+      <UniqueIdentifier>{ba21cbbe-bb77-418f-b7b5-823e25c55929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\order">
+      <UniqueIdentifier>{11853a74-ad48-46b0-8559-332c2c7e1bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\settings">
+      <UniqueIdentifier>{01e3fa55-e5ee-4b8b-986d-8a14d9b9881f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\settings">
+      <UniqueIdentifier>{2840103e-544e-4c7e-b7a3-e2b991690e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\settings">
+      <UniqueIdentifier>{cda30330-5232-4429-bfce-57362876be3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="masterCashier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_masterCashier.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_masterCashier.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_masterCashier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classifyButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_classifyButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_classifyButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pageSaleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pageSaleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="pageQySupmarketWgt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pageQySupmarketWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pageQySupmarketWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rootItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rootItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_childItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_childItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_listItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_listItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="loginDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_loginDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_loginDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="switchAccountDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_switchAccountDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_switchAccountDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addGoodsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addGoodsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="addGoodsDlg.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="childItemWidget.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="listItemWidget.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="pageSaleWidget.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="rootItemWidget.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="FramelessHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FramelessHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FramelessHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpAgent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpAgent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpClient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpClient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IHttpReqRes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IHttpReqRes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpAgent.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSignal.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="IHttpReqRes.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="commonFun.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="appconfig.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="appConfigIni.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="KillExe.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ThreadManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ThreadManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetBarInfo.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetBarInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetBarInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpLogin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpLogin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpLogin.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpLogout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpLogout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpLogout.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetClassifyGroup.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetClassifyGroup.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetClassifyGroup.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetGoodsInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetGoodsInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetGoodsInfo.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_checkButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_checkButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="checkButton.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_paymentDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_paymentDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paymentDlg.cpp">
+      <Filter>Source Files\sale</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpDealPayment.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpDealPayment.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpDealPayment.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_attributeserver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_attributeserver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webSocketAgent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webSocketAgent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webSocketSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webSocketSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="attributeserver.cpp">
+      <Filter>Source Files\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="webSocketAgent.cpp">
+      <Filter>Source Files\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="webSocketSignal.cpp">
+      <Filter>Source Files\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiptPrinterMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReceiptPrinterMaker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReceiptPrinterMaker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_handOverShiftWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_handOverShiftWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="handOverShiftWgt.cpp">
+      <Filter>Source Files\shift</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pagePointListWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pagePointListWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pageSettlementWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pageSettlementWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_handOverShiftDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_handOverShiftDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="pagePointListWgt.cpp">
+      <Filter>Source Files\shift</Filter>
+    </ClCompile>
+    <ClCompile Include="pageSettlementWgt.cpp">
+      <Filter>Source Files\shift</Filter>
+    </ClCompile>
+    <ClCompile Include="handOverShiftDlg.cpp">
+      <Filter>Source Files\shift</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_shiftListItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_shiftListItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="shiftListItemWidget.cpp">
+      <Filter>Source Files\shift</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetAllGoodsInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetAllGoodsInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetAllGoodsInfo.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGoodsCheckUp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGoodsCheckUp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGoodsCheckUp.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InventoryRemindWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InventoryRemindWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryRemindWgt.cpp">
+      <Filter>Source Files\inventoryRemind</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InventoryRemindItemWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InventoryRemindItemWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryRemindItemWgt.cpp">
+      <Filter>Source Files\inventoryRemind</Filter>
+    </ClCompile>
+    <ClCompile Include="PageWidget.cpp">
+      <Filter>Source Files\shift</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RemindContentItemWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RemindContentItemWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RemindContentItemWgt.cpp">
+      <Filter>Source Files\inventoryRemind</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetShiftInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetShiftInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetShiftInfo.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpCommitShiftInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpCommitShiftInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCommitShiftInfo.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpCheckAcceptor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpCheckAcceptor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCheckAcceptor.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSignal.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PageReturnGoodsWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PageReturnGoodsWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PageReturnGoodsWgt.cpp">
+      <Filter>Source Files\return</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PageOrderWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PageOrderWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PageOrderWidget.cpp">
+      <Filter>Source Files\order</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PageSettingsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PageSettingsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PageSettingsWidget.cpp">
+      <Filter>Source Files\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PageSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PageSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PageSettings.cpp">
+      <Filter>Source Files\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetWarningGoodsList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetWarningGoodsList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetWarningGoodsList.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetOrderList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetOrderList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetOrderList.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetOrderDetialList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetOrderDetialList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGetOrderDetialList.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpRefund.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpRefund.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRefund.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpCancelOrder.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpCancelOrder.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCancelOrder.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="verifyShopperPwdDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_verifyShopperPwdDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_verifyShopperPwdDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="myProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_myProgressDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_myProgressDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtmaterialcircularprogress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialcircularprogress.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialcircularprogress.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialtheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialtheme.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialtheme.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtmaterialcircularprogress_internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialcircularprogress_internal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialcircularprogress_internal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialstyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialstyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtmaterialflatbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialflatbutton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialflatbutton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtmaterialflatbutton_internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialflatbutton_internal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialflatbutton_internal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialcheckable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialcheckable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialcheckable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialcheckable_internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialcheckable_internal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialcheckable_internal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialoverlaywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialoverlaywidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialoverlaywidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialripple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialripple.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialripple.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialrippleoverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialrippleoverlay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialrippleoverlay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\qtmaterialstatetransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialstatetransition.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialstatetransition.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtmaterialdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qtmaterialdialog_internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtmaterialdialog_internal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtmaterialdialog_internal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="faceTectionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_faceTectionDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_faceTectionDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpFaceDetection.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpFaceDetection.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpFaceDetection.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpCommitFaceData.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpCommitFaceData.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCommitFaceData.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="masterCashier.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="masterCashier.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="masterCashier.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classifyButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classifyButton.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageQySupmarketWgt.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageQySupmarketWgt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="loginDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="loginDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="switchAccountDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="switchAccountDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addGoodsDlg.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="childItemWidget.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="listItemWidget.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addGoodsDlg.ui">
+      <Filter>Form Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="childItemWidget.ui">
+      <Filter>Form Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="listItemWidget.ui">
+      <Filter>Form Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageSaleWidget.ui">
+      <Filter>Form Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rootItemWidget.ui">
+      <Filter>Form Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageSaleWidget.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rootItemWidget.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FramelessHelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpAgent.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpClient.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpSignal.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IHttpReqRes.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ThreadManager.h">
+      <Filter>Header Files\utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetBarInfo.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpLogin.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpLogout.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetClassifyGroup.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetGoodsInfo.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="checkButton.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paymentDlg.h">
+      <Filter>Header Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paymentDlg.ui">
+      <Filter>Form Files\sale</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpDealPayment.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="attributeserver.h">
+      <Filter>Header Files\websocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webSocketAgent.h">
+      <Filter>Header Files\websocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webSocketSignal.h">
+      <Filter>Header Files\websocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReceiptPrinterMaker.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handOverShiftWgt.h">
+      <Filter>Header Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handOverShiftWgt.ui">
+      <Filter>Form Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pagePointListWgt.ui">
+      <Filter>Form Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageSettlementWgt.ui">
+      <Filter>Form Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handOverShiftDlg.ui">
+      <Filter>Form Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pagePointListWgt.h">
+      <Filter>Header Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageSettlementWgt.h">
+      <Filter>Header Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handOverShiftDlg.h">
+      <Filter>Header Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shiftListItemWidget.h">
+      <Filter>Header Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetAllGoodsInfo.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGoodsCheckUp.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shiftListItemWidget.ui">
+      <Filter>Form Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InventoryRemindWgt.ui">
+      <Filter>Form Files\inventoryRemind</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InventoryRemindWgt.h">
+      <Filter>Header Files\inventoryRemind</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InventoryRemindItemWgt.ui">
+      <Filter>Form Files\inventoryRemind</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InventoryRemindItemWgt.h">
+      <Filter>Header Files\inventoryRemind</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageWidget.h">
+      <Filter>Header Files\shift</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RemindContentItemWgt.ui">
+      <Filter>Form Files\inventoryRemind</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RemindContentItemWgt.h">
+      <Filter>Header Files\inventoryRemind</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetShiftInfo.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpCommitShiftInfo.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpCheckAcceptor.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ViewSignal.h">
+      <Filter>Header Files\utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageReturnGoodsWgt.ui">
+      <Filter>Form Files\return</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageReturnGoodsWgt.h">
+      <Filter>Header Files\return</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageOrderWidget.ui">
+      <Filter>Form Files\order</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageOrderWidget.h">
+      <Filter>Header Files\order</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageSettingsWidget.ui">
+      <Filter>Form Files\settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageSettingsWidget.h">
+      <Filter>Header Files\settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageSettings.ui">
+      <Filter>Form Files\settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageSettings.h">
+      <Filter>Header Files\settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetWarningGoodsList.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetOrderList.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGetOrderDetialList.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpRefund.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpCancelOrder.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="verifyShopperPwdDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="verifyShopperPwdDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="myProgressDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmaterialcircularprogress.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialtheme.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmaterialcircularprogress_internal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialstyle.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmaterialflatbutton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmaterialflatbutton_internal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialcheckable.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialcheckable_internal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialoverlaywidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialripple.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialrippleoverlay.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lib\qtmaterialstatetransition.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmaterialdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtmaterialdialog_internal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="faceTectionDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="faceTectionDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpFaceDetection.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpCommitFaceData.h">
+      <Filter>Header Files\http</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_masterCashier.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_classifyButton.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pageSaleWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pageQySupmarketWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rootItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_childItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_listItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_loginDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_switchAccountDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addGoodsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appconfig.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dump.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="KillExe.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="appConfigIni.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFun.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="constData.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="enumData.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="httpStructData.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_paymentDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="receiptData.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_handOverShiftWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pagePointListWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pageSettlementWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_handOverShiftDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_shiftListItemWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PageWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InventoryRemindWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InventoryRemindItemWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RemindContentItemWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PageReturnGoodsWgt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PageOrderWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PageSettingsWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PageSettings.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_verifyShopperPwdDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_myProgressDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\qtmaterialtheme_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtmaterialcircularprogress_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\qtmaterialstyle_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtmaterialflatbutton_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\qtmaterialcheckable_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\qtmaterialstatetransitionevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtmaterialdialog_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_faceTectionDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="masterCashier.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\masterCashier_icon.ico" />
+  </ItemGroup>
+</Project>
