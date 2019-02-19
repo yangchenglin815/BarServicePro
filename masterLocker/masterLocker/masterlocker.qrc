@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/masterLocker">
+        <file>Resources/bg.png</file>
+        <file>Resources/left_bg.png</file>
+        <file>Resources/QRcode_bg.png</file>
+        <file>Resources/masterLocker.ico</file>
+    </qresource>
+</RCC>
