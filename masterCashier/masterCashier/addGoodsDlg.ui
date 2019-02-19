@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addGoodsDlg</class>
+ <widget class="QDialog" name="addGoodsDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>602</width>
+    <height>372</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>602</width>
+    <height>372</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>addGoodsDlg</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#widget{
+background:#FFFFFF;
+border-radius:2px;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <widget class="QLabel" name="lbl_goodsName">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family:&quot;微软雅黑&quot;;
+font-size:14px;
+color:rgba(0,0,0,0.9);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>602</width>
+        <height>210</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QScrollArea{
+border:none;
+}
+QScrollBar:vertical {
+      width:10px;
+      background: #FFFFFF;
+      padding-top:6px;
+      padding-bottom:6px;
+padding-right:4px;
+  }
+QScrollBar::handle:vertical{
+    background:rgba(0,0,0,25%);
+    border-radius:2px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    background:rgba(0,0,0,50%); 
+    border-radius:2px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical {
+      border: none;
+      background: #FFFFFF;
+}
+
+QScrollBar::sub-line:vertical {
+      border: none;
+      background: #FFFFFF;
+}  
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:#eeeeee;
+    border-radius:4px;
+}
+#wgt_area{
+background:#FFFFFF;
+}</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="wgt_area">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>602</width>
+         <height>210</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
