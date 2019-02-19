@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{e7e33a9a-dc7c-4c8a-9c10-6a9e3b839052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pack">
+      <UniqueIdentifier>{4cb43d77-aaa1-415d-a54f-6f5c20f916fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="connect">
+      <UniqueIdentifier>{fcc02ffb-4bc8-4dfc-aaf7-6832fcf9f3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{35267803-32f1-4f59-b858-d596f7b33ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{1fb3746f-0e38-4bc5-91d9-b23d48fd5e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{a99a8ad5-f2da-4f29-b8a5-b6847c6976d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="response.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_manager.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>pack</Filter>
+    </ClInclude>
+    <ClInclude Include="request_handler.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpserver.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="netbuffer.h">
+      <Filter>pack</Filter>
+    </ClInclude>
+    <ClInclude Include="APIProtocol.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="APIProtocolHandler.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.hpp">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="setip.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="transform_handler.h">
+      <Filter>pack</Filter>
+    </ClInclude>
+    <ClInclude Include="appconfig.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="http_mark.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpBase.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHandler.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="constData.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFun.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="enumData.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="response.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_manager.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpserver.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="request_handler.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="setip.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_handler.cpp">
+      <Filter>pack</Filter>
+    </ClCompile>
+    <ClCompile Include="appconfig.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpBase.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHandler.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="commonFun.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

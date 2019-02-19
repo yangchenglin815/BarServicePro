@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dem1service", "..\dem1service\dem1service.vcxproj", "{265616A6-F866-400C-9984-11028B4AFF66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dem1serivce_server", "dem1serivce_server.vcxproj", "{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265616A6-F866-400C-9984-11028B4AFF66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{265616A6-F866-400C-9984-11028B4AFF66}.Debug|Win32.Build.0 = Debug|Win32
+		{265616A6-F866-400C-9984-11028B4AFF66}.Debug|x64.ActiveCfg = Debug|Win32
+		{265616A6-F866-400C-9984-11028B4AFF66}.Debug|x64.Build.0 = Debug|Win32
+		{265616A6-F866-400C-9984-11028B4AFF66}.Release|Win32.ActiveCfg = Release|Win32
+		{265616A6-F866-400C-9984-11028B4AFF66}.Release|Win32.Build.0 = Release|Win32
+		{265616A6-F866-400C-9984-11028B4AFF66}.Release|x64.ActiveCfg = Release|x64
+		{265616A6-F866-400C-9984-11028B4AFF66}.Release|x64.Build.0 = Release|x64
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Debug|Win32.Build.0 = Debug|Win32
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Debug|x64.ActiveCfg = Debug|Win32
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Debug|x64.Build.0 = Debug|Win32
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Release|Win32.ActiveCfg = Release|Win32
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Release|Win32.Build.0 = Release|Win32
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Release|x64.ActiveCfg = Release|x64
+		{3DC54AFC-8E1A-4ECF-A315-DD42B8EA1BE4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = Qt562_32
+	EndGlobalSection
+EndGlobal
