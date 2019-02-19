@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>orderGoodsItemWgt</class>
+ <widget class="QWidget" name="orderGoodsItemWgt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>169</width>
+    <height>237</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>169</width>
+    <height>237</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>169</width>
+    <height>237</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>orderGoodsItemWgt</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">#widget{
+border-image: url(:/masterDesktop/Resources/goodsItem.png);
+}
+#lbl_icon{
+border-image: url(:/masterDesktop/Resources/order_commodity_bg.png);
+}
+#lbl_name{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#E6E6E6;
+}
+#lbl_price{
+font-family:&quot;微软雅黑&quot;;
+font-size:14px;
+color:#2EB4AF;
+}
+#btn_reduce{
+border-image: url(:/masterDesktop/Resources/order_minus.png);
+}
+#btn_add{
+border-image: url(:/masterDesktop/Resources/order_add.png);
+}
+#btn_reduce:pressed,#btn_add:pressed{
+margin:1px;
+}
+#lbl_num{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#FFFFFF;
+border:1px solid #2EB3AF;
+border-left:none;
+border-right:none;
+}</string>
+     </property>
+     <widget class="QLabel" name="lbl_icon">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>20</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_name">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>159</y>
+        <width>130</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>巧克力星冰乐巧克力星冰乐巧克力星冰乐</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_price">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>206</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>¥17</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_add">
+      <property name="geometry">
+       <rect>
+        <x>135</x>
+        <y>211</y>
+        <width>14</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>14</width>
+        <height>14</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>14</width>
+        <height>14</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_reduce">
+      <property name="geometry">
+       <rect>
+        <x>101</x>
+        <y>211</y>
+        <width>14</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>14</width>
+        <height>14</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>14</width>
+        <height>14</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_num">
+      <property name="geometry">
+       <rect>
+        <x>114</x>
+        <y>211</y>
+        <width>24</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>24</width>
+        <height>14</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>24</width>
+        <height>14</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="masterDesktop.qrc"/>
+ </resources>
+ <connections/>
+</ui>

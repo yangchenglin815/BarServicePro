@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>masterDesktopClass</class>
+ <widget class="QMainWindow" name="masterDesktopClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>351</width>
+    <height>860</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>351</width>
+    <height>860</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>masterDesktop</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralWidget{
+border-image: url(:/masterDesktop/Resources/desktop.png);
+}
+#btn_close{
+border-image: url(:/masterDesktop/Resources/min.png);
+}
+#btn_close:pressed{
+margin:1px;
+}
+#lbl_pcNo{
+font-family:&quot;微软雅黑&quot;;
+color:#FEFEFE;
+font-size:22px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">#btn_complaints{
+border-image: url(:/masterDesktop/Resources/complaints.png);
+}
+#btn_reboot{
+border-image: url(:/masterDesktop/Resources/reboot.png);
+}
+#btn_shutdown{
+border-image: url(:/masterDesktop/Resources/shutdown.png);
+}
+#btn_complaints:pressed,#btn_reboot:pressed,#btn_shutdown:pressed{
+margin:1px;
+}
+#lbl_complaints,#lbl_reboot,#lbl_shutdown{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#FFFFFF;
+}
+#lbl_wallet,#lbl_fee{
+border:1px solid #144D46;
+background:#0D3632;
+color:#FFFFFF;
+font-family:&quot;微软雅黑&quot;;
+font-size:14px;
+}
+#lbl_user{
+color:#FFFFFF;
+font-family:&quot;微软雅黑&quot;;
+font-size:14px;
+}
+#lbl_icon{
+border-image: url(:/masterDesktop/Resources/avatar.png);
+}
+#wgt_icon{
+border:1px solid #144D46;
+border-radius:10px;
+background:#0D3632;
+}
+#lbl_chat{
+background:qlineargradient(x1:0,y1:0,x2:1,y2:0,stop:0 rgba(21,86,88,0), stop:0.5 rgba(8,147,149,0.5),stop:1 rgba(21,87,88,0));
+color:#EEFFFD;
+font-family:&quot;微软雅黑&quot;;
+font-size:18px;
+}
+#lEd_content{
+background:#0D3632;
+border:1px solid #144D46;
+color:#22B4B0;
+font-family:&quot;微软雅黑&quot;;
+font-size:14px;
+padding-left:20px;
+}
+#btn_send{
+background:#0D3632;
+border:1px solid #144D46;
+color:#FEFFFF;
+font-family:&quot;微软雅黑&quot;;
+font-size:18px;
+}
+#textBrowser{
+background:transparent;
+border:none;
+}
+#btn_activity{
+border-image: url(:/masterDesktop/Resources/activity.png);
+}
+#btn_attendance{
+border-image: url(:/masterDesktop/Resources/attendance.png);
+}
+#btn_order{
+border-image: url(:/masterDesktop/Resources/order.png);
+}
+#btn_personal{
+border-image: url(:/masterDesktop/Resources/personal.png);
+}
+#btn_recharge{
+border-image: url(:/masterDesktop/Resources/recharge.png);
+}
+#btn_tel{
+border-image: url(:/masterDesktop/Resources/tel.png);
+}
+#btn_wifi{
+border-image: url(:/masterDesktop/Resources/wifi.png);
+}
+#btn_game{
+border-image: url(:/masterDesktop/Resources/game.png);
+}
+#btn_activity:pressed,#btn_attendance:pressed,#btn_order:pressed,#btn_personal:pressed,#btn_recharge:pressed,#btn_tel:pressed,#btn_wifi:pressed,#btn_game:pressed{
+margin:1px;
+}</string>
+   </property>
+   <widget class="QPushButton" name="btn_close">
+    <property name="geometry">
+     <rect>
+      <x>295</x>
+      <y>19</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_pcNo">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>25</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>机号108</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_order">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>316</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tel">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>405</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_recharge">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>360</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_wifi">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>449</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_attendance">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>319</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_personal">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>408</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_activity">
+    <property name="geometry">
+     <rect>
+      <x>247</x>
+      <y>360</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_chat">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>572</y>
+      <width>199</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>199</width>
+      <height>28</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>199</width>
+      <height>28</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>网吧聊天</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>101</y>
+      <width>152</width>
+      <height>126</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>26</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="btn_complaints">
+           <property name="minimumSize">
+            <size>
+             <width>26</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>26</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbl_complaints">
+           <property name="text">
+            <string>投诉</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="btn_reboot">
+           <property name="minimumSize">
+            <size>
+             <width>26</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>26</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbl_reboot">
+           <property name="text">
+            <string>重启</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="btn_shutdown">
+           <property name="minimumSize">
+            <size>
+             <width>26</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>26</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbl_shutdown">
+           <property name="text">
+            <string>关机</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbl_wallet">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>150</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>钱包： 1000</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbl_fee">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>150</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>网费： 1000</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>108</y>
+      <width>80</width>
+      <height>112</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <property name="spacing">
+      <number>12</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="wgt_icon" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>78</width>
+         <height>78</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>78</height>
+        </size>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="lbl_icon">
+          <property name="minimumSize">
+           <size>
+            <width>63</width>
+            <height>64</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>63</width>
+            <height>64</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbl_user">
+       <property name="text">
+        <string>隔壁老王</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>739</y>
+      <width>297</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="lEd_content">
+       <property name="minimumSize">
+        <size>
+         <width>205</width>
+         <height>39</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>205</width>
+         <height>39</height>
+        </size>
+       </property>
+       <property name="placeholderText">
+        <string>输入聊天内容</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_send">
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>39</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>39</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>发送</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>610</y>
+      <width>311</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+ QScrollBar:vertical {
+       width: 13px;
+    background:rgba(0,0,0,0%);
+    padding-top:13px;
+    padding-bottom:13px;
+   }
+   QScrollBar::handle:vertical {
+       
+	border-image: url(:/masterDesktop/Resources/slider.png);
+   }
+QScrollBar::add-line:vertical
+{
+    border:0px;
+   height:13px;
+}
+
+QScrollBar::sub-line:vertical
+{
+  border:0px;
+height:13px;
+}
+ QScrollBar::up-arrow:vertical{     
+    border:0px;
+width:13px;
+height:13px;
+	border-image: url(:/masterDesktop/Resources/up.png);
+   }
+QScrollBar::down-arrow:vertical{
+    border:0px;
+width:13px;
+height:13px;
+border-image: url(:/masterDesktop/Resources/down.png);
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+  background-color:#08201e;
+}
+</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_game">
+    <property name="geometry">
+     <rect>
+      <x>247</x>
+      <y>449</y>
+      <width>88</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>88</width>
+      <height>78</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="masterDesktop.qrc"/>
+ </resources>
+ <connections/>
+</ui>

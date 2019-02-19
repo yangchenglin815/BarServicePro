@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>orderGoodsDialog</class>
+ <widget class="QDialog" name="orderGoodsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>860</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>860</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>orderGoodsDialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">#widget{
+border-image: url(:/masterDesktop/Resources/background.png);
+}
+#btn_close{
+border-image: url(:/masterDesktop/Resources/close.png);
+}
+#btn_close:pressed{
+margin:1px;
+}
+#lbl_icon{
+border-image: url(:/masterDesktop/Resources/avatar.png);
+}
+#lbl_hi{
+font-family:&quot;微软雅黑&quot;;
+font-size:14px;
+color:#FFFFFF;
+}
+#lbl_bar{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:#EEEEEE;
+}</string>
+     </property>
+     <widget class="QPushButton" name="btn_close">
+      <property name="geometry">
+       <rect>
+        <x>1134</x>
+        <y>24</y>
+        <width>37</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>37</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>37</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_icon">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>79</y>
+        <width>63</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>63</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>63</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>94</x>
+        <y>79</y>
+        <width>111</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="lbl_hi">
+         <property name="text">
+          <string>您好！</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_bar">
+         <property name="text">
+          <string>欢迎光临全游电竞馆</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="superShoppingButton" name="btn_shopping">
+      <property name="geometry">
+       <rect>
+        <x>845</x>
+        <y>99</y>
+        <width>120</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="searchWidget" name="wgt_search" native="true">
+      <property name="geometry">
+       <rect>
+        <x>979</x>
+        <y>99</y>
+        <width>172</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>172</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>172</width>
+        <height>48</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>44</x>
+        <y>160</y>
+        <width>1121</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <widget class="pageGoodsWidget" name="page_goods"/>
+      <widget class="pageOrderConfirmWgt" name="page_order"/>
+      <widget class="pageOrderCommitWgt" name="page_commit_order"/>
+      <widget class="pageOrderPayWgt" name="page_pay_order"/>
+      <widget class="goodsSearchWgt" name="page_search"/>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>superShoppingButton</class>
+   <extends>QPushButton</extends>
+   <header>superShoppingButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>searchWidget</class>
+   <extends>QWidget</extends>
+   <header>searchWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>pageGoodsWidget</class>
+   <extends>QWidget</extends>
+   <header>pageGoodsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>pageOrderConfirmWgt</class>
+   <extends>QWidget</extends>
+   <header>pageOrderConfirmWgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>pageOrderCommitWgt</class>
+   <extends>QWidget</extends>
+   <header>pageOrderCommitWgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>pageOrderPayWgt</class>
+   <extends>QWidget</extends>
+   <header>pageOrderPayWgt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>goodsSearchWgt</class>
+   <extends>QWidget</extends>
+   <header>goodsSearchWgt.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="masterDesktop.qrc"/>
+ </resources>
+ <connections/>
+</ui>

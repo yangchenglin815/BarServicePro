@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/masterDesktop">
+        <file>Resources/avatar.png</file>
+        <file>Resources/complaints.png</file>
+        <file>Resources/desktop.png</file>
+        <file>Resources/reboot.png</file>
+        <file>Resources/shutdown.png</file>
+        <file>Resources/down.png</file>
+        <file>Resources/slider.png</file>
+        <file>Resources/up.png</file>
+        <file>Resources/activity.png</file>
+        <file>Resources/attendance.png</file>
+        <file>Resources/game.png</file>
+        <file>Resources/order.png</file>
+        <file>Resources/personal.png</file>
+        <file>Resources/recharge.png</file>
+        <file>Resources/wifi.png</file>
+        <file>Resources/tel.png</file>
+        <file>Resources/background.png</file>
+        <file>Resources/close.png</file>
+        <file>Resources/min.png</file>
+        <file>Resources/bg.png</file>
+        <file>Resources/title_personal.png</file>
+        <file>Resources/balance.png</file>
+        <file>Resources/my_balance.png</file>
+        <file>Resources/order_balance.png</file>
+        <file>Resources/time.png</file>
+        <file>Resources/wallet_balance.png</file>
+        <file>Resources/ticket_failure.png</file>
+        <file>Resources/ticket_normal.png</file>
+        <file>Resources/complaints_bg.png</file>
+        <file>Resources/complaint_complaint_ok.png</file>
+        <file>Resources/call_call_ing.png</file>
+        <file>Resources/coupon.png</file>
+        <file>Resources/title.png</file>
+        <file>Resources/icon_shopping cart_default.png</file>
+        <file>Resources/icon_search_default.png</file>
+        <file>Resources/leftbar_product category_bg.png</file>
+        <file>Resources/goodsItem.png</file>
+        <file>Resources/order_add.png</file>
+        <file>Resources/order_commodity_bg.png</file>
+        <file>Resources/order_minus.png</file>
+        <file>Resources/common_arrow_left.png</file>
+        <file>Resources/common_arrow_right.png</file>
+        <file>Resources/icon_shopping cart_selected.png</file>
+        <file>Resources/shopping cart_bg.png</file>
+        <file>Resources/title_bg.png</file>
+        <file>Resources/choice.png</file>
+        <file>Resources/choice—selected.png</file>
+    </qresource>
+</RCC>
