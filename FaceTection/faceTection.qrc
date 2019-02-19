@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/FaceTection">
+        <file>image/logo.png</file>
+        <file>image/ico.ico</file>
+    </qresource>
+</RCC>
