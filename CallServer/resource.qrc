@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon.ico</file>
+        <file>resource/bg.png</file>
+        <file>resource/bg2x.png</file>
+        <file>resource/bg3x.png</file>
+        <file>resource/btn_close_normal.png</file>
+        <file>resource/btn_close_normal2x.png</file>
+        <file>resource/btn_close_normal3x.png</file>
+        <file>resource/btn_minimum_normal.png</file>
+        <file>resource/btn_minimum_normal2x.png</file>
+        <file>resource/btn_minimum_normal3x.png</file>
+        <file>resource/slider.png</file>
+        <file>resource/slider2x.png</file>
+        <file>resource/slider3x.png</file>
+        <file>resource/SliderButton.png</file>
+        <file>resource/SliderButton2x.png</file>
+        <file>resource/SliderButton3x.png</file>
+        <file>resource/btn_check.png</file>
+        <file>resource/btn_check2x.png</file>
+        <file>resource/btn_check3x.png</file>
+        <file>resource/icon-128.ico</file>
+    </qresource>
+</RCC>
