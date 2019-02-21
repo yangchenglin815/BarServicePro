@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SpeechToolClass</class>
+ <widget class="QMainWindow" name="SpeechToolClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SpeechTool</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#widget{
+background:#FFFFFF;
+border:1px solid rgba(0,0,0,0.3);
+}
+QTextEdit{
+background:#FFFFFF;
+border:1px solid rgba(0,0,0,0.3);
+padding-left:9px;
+padding-top:9px;
+}
+QLabel{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:rgba(0,0,0,0.6);
+}
+QPushButton{
+font-family:&quot;微软雅黑&quot;;
+font-size:12px;
+color:rgba(0,0,0,0.6);
+background:#FFFFFF;
+border:1px solid #3273e3;
+}
+#btn_compose{
+background:#3273e3;
+color:rgba(0,0,0,0.9);
+border-radius:4px;
+}
+#btn_compose:pressed{
+margin:1px;
+}
+#btn_man,#btn_women,#btn_superman,#btn_superwomen{
+border-radius:8px;
+color:rgba(0,0,0,0.7);
+}
+#btn_man:checked,#btn_women:checked,#btn_superman:checked,#btn_superwomen:checked{
+background:#3273e3;
+color:#FFFFFF;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>160</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>160</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请输入语音内容...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>90</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>90</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>9</number>
+       </property>
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>标准合成</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="btn_man">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>男声</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="btn_women">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>女声</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>情感合成</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="btn_superman">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>度逍遥</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="btn_superwomen">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>度丫丫</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_compose">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>合成</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="speechtool.qrc"/>
+ </resources>
+ <connections/>
+</ui>
