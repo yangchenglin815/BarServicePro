@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/ZMAdvertisementTool">
+        <file>image/Group.png</file>
+    </qresource>
+</RCC>
